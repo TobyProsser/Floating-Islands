@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4544591182816599192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4544591182816599197}
+  - component: {fileID: 4544591182816599195}
+  - component: {fileID: 4544591182816599196}
+  - component: {fileID: 4544591182816599194}
+  m_Layer: 0
+  m_Name: MainIsland
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4544591182816599197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544591182816599192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4544591182816599195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544591182816599192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e53d1b6a476a2a4986405ab23e91002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chestsAmount: 1
+  chest: {fileID: 3998205215916498945, guid: 3f0823c60192ec5458c222f70068a954, type: 3}
+  spawnBuildings: 0
+  buildingsAmount: 10
+  building: {fileID: 6155680210813066900, guid: e660603d8977dfe4bb76e6f58ce8295b, type: 3}
+  spawnersAmount: 1
+  spawner: {fileID: 2335396880513095810, guid: 83ec2567758f1474782f6b5253e09ce2, type: 3}
+  spawnedEmptyBuildings: []
+  spawnBuildingList: []
+--- !u!114 &4544591182816599196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544591182816599192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5d5f7c93d4c39c4d916a59a9dd00e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 7573652341162478929, guid: 81314d2260075394089ff91555d7463e, type: 3}
+  plane: {fileID: 780473343991712644, guid: 187fdc6675f7a7044b83b12d31f1b6af, type: 3}
+  tree: {fileID: 1713883109452640, guid: a4ee203112c7f81448202922179eea07, type: 3}
+  shortGrass: {fileID: 3446644522544478881, guid: d78def96d4453f44187ceebd6d78cb35, type: 3}
+  tallGrass: {fileID: 2307373943710937510, guid: 4a750f401d2988443a9dfa70060bf768, type: 3}
+  treesAmount: 250
+  material: {fileID: 2100000, guid: 08279452e826b7e4b8375009dd9f3512, type: 2}
+  grassColors:
+  - {r: 0.5254902, g: 0.67058825, b: 0.3372549, a: 1}
+  - {r: 0.5411765, g: 0.67058825, b: 0.3372549, a: 1}
+  - {r: 0.57254905, g: 0.67058825, b: 0.3372549, a: 1}
+  - {r: 0.6117647, g: 0.67058825, b: 0.3372549, a: 1}
+  stoneColors:
+  - {r: 0.6431373, g: 0.6431373, b: 0.6431373, a: 1}
+  - {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
+  - {r: 0.6039216, g: 0.6039216, b: 0.57254905, a: 1}
+  - {r: 0.65882355, g: 0.65882355, b: 0.654902, a: 1}
+  seperateColors: 1
+  stoneSides: 1
+  size: 150
+  amp: 70
+  freq: 20
+  groundAmp: 1
+  offset: {x: 1000, y: 0}
+  groundLevels: 3
+  spawnPoints: []
+--- !u!114 &4544591182816599194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4544591182816599192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a238987669ac1845a6d61fe20e97ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  villageBuildings:
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
+  - {fileID: 2565709135435332462, guid: bc8da3d2a024e21499452bb5c4be9e22, type: 3}
